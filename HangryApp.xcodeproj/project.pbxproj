@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E15144DD24D80FBD461786 /* Pods_HangryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E746A7020B80D0D013051D10 /* Pods_HangryApp.framework */; };
 		617F2DA22013980900338996 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 617F2DA12013980900338996 /* Podfile */; };
 		617F2DA420139BD100338996 /* NetworkMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F2DA320139BD100338996 /* NetworkMgr.swift */; };
 		92A708A3201303A200327729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A708A2201303A200327729 /* AppDelegate.swift */; };
@@ -14,8 +15,6 @@
 		92A708A8201303A200327729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A708A6201303A200327729 /* Main.storyboard */; };
 		92A708AA201303A200327729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A708A9201303A200327729 /* Assets.xcassets */; };
 		92A708AD201303A200327729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A708AB201303A200327729 /* LaunchScreen.storyboard */; };
-		92A708B8201303A200327729 /* HangryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A708B7201303A200327729 /* HangryAppTests.swift */; };
-		92A708C3201303A200327729 /* HangryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A708C2201303A200327729 /* HangryAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		617F2DA12013980900338996 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		27800A0E5ECF6EE117208A19 /* Pods-HangryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangryApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HangryApp/Pods-HangryApp.release.xcconfig"; sourceTree = "<group>"; };
+		617F2DA12013980900338996 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		617F2DA320139BD100338996 /* NetworkMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMgr.swift; sourceTree = "<group>"; };
 		92A7089F201303A200327729 /* HangryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A708A2201303A200327729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,11 +46,9 @@
 		92A708AC201303A200327729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92A708AE201303A200327729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92A708B3201303A200327729 /* HangryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92A708B7201303A200327729 /* HangryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangryAppTests.swift; sourceTree = "<group>"; };
-		92A708B9201303A200327729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92A708BE201303A200327729 /* HangryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92A708C2201303A200327729 /* HangryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangryAppUITests.swift; sourceTree = "<group>"; };
-		92A708C4201303A200327729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E799C66B61B082146A5128 /* Pods-HangryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangryApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HangryApp/Pods-HangryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E746A7020B80D0D013051D10 /* Pods_HangryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HangryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E15144DD24D80FBD461786 /* Pods_HangryApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +82,9 @@
 			children = (
 				617F2DA12013980900338996 /* Podfile */,
 				92A708A1201303A200327729 /* HangryApp */,
-				92A708B6201303A200327729 /* HangryAppTests */,
-				92A708C1201303A200327729 /* HangryAppUITests */,
 				92A708A0201303A200327729 /* Products */,
+				95A611E1E60C10D77BA7F544 /* Pods */,
+				B2CB1BE373BBE0A4AB6340F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,22 +112,21 @@
 			path = HangryApp;
 			sourceTree = "<group>";
 		};
-		92A708B6201303A200327729 /* HangryAppTests */ = {
+		95A611E1E60C10D77BA7F544 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				92A708B7201303A200327729 /* HangryAppTests.swift */,
-				92A708B9201303A200327729 /* Info.plist */,
+				D5E799C66B61B082146A5128 /* Pods-HangryApp.debug.xcconfig */,
+				27800A0E5ECF6EE117208A19 /* Pods-HangryApp.release.xcconfig */,
 			);
-			path = HangryAppTests;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		92A708C1201303A200327729 /* HangryAppUITests */ = {
+		B2CB1BE373BBE0A4AB6340F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				92A708C2201303A200327729 /* HangryAppUITests.swift */,
-				92A708C4201303A200327729 /* Info.plist */,
+				E746A7020B80D0D013051D10 /* Pods_HangryApp.framework */,
 			);
-			path = HangryAppUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92A708C7201303A200327729 /* Build configuration list for PBXNativeTarget "HangryApp" */;
 			buildPhases = (
+				93A62D56FBA3A18481F40CB4 /* [CP] Check Pods Manifest.lock */,
 				92A7089B201303A200327729 /* Sources */,
 				92A7089C201303A200327729 /* Frameworks */,
 				92A7089D201303A200327729 /* Resources */,
+				053973365F375BDCEF5D4EB5 /* [CP] Embed Pods Frameworks */,
+				4481206456E7789A70607E8F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,6 +262,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		053973365F375BDCEF5D4EB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HangryApp/Pods-HangryApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HangryApp/Pods-HangryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4481206456E7789A70607E8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HangryApp/Pods-HangryApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93A62D56FBA3A18481F40CB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HangryApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92A7089B201303A200327729 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,7 +331,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A708B8201303A200327729 /* HangryAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +338,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A708C3201303A200327729 /* HangryAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +485,7 @@
 		};
 		92A708C8201303A200327729 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E799C66B61B082146A5128 /* Pods-HangryApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +501,7 @@
 		};
 		92A708C9201303A200327729 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27800A0E5ECF6EE117208A19 /* Pods-HangryApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
