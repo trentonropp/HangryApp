@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -62,6 +62,16 @@
                                         <rect key="frame" x="17" y="189" width="340" height="181"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBi-Sa-8Gb">
+                                        <rect key="frame" x="0.0" y="548" width="375" height="119"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <state key="normal" title="Stop Recording"/>
+                                        <connections>
+                                            <action selector="StopButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QH4-Fu-ybt"/>
+                                            <segue destination="pQf-Cm-qq2" kind="show" id="xCQ-3G-rI0"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -80,21 +90,62 @@
                         <outlet property="Mic3" destination="L2T-17-0LM" id="aCo-8Y-DMJ"/>
                         <outlet property="NowListening" destination="yc4-cZ-I6c" id="tlQ-Ig-ihw"/>
                         <outlet property="PowerButton" destination="TIj-fR-wMa" id="FG1-5w-I15"/>
+                        <outlet property="StopButton" destination="vBi-Sa-8Gb" id="NIn-Br-wXh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-100" y="113.79310344827587"/>
         </scene>
+        <!--View Controller2-->
+        <scene sceneID="Uce-rj-ofO">
+            <objects>
+                <viewController id="pQf-Cm-qq2" customClass="ViewController2" customModule="HangryApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dHw-Mj-g4D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Asset 15" translatesAutoresizingMaskIntoConstraints="NO" id="nuQ-Vf-CUh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Asset 13" translatesAutoresizingMaskIntoConstraints="NO" id="08F-yL-EYO">
+                                <rect key="frame" x="-304" y="62" width="329" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Asset 14" translatesAutoresizingMaskIntoConstraints="NO" id="HgE-EE-KoD">
+                                <rect key="frame" x="368" y="376" width="308" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Asset 8" translatesAutoresizingMaskIntoConstraints="NO" id="nOo-ex-ldE">
+                                <rect key="frame" x="-58" y="220" width="491" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="T4C-m5-iD6"/>
+                    </view>
+                    <connections>
+                        <outlet property="DogLeft" destination="08F-yL-EYO" id="8Bq-LP-xrV"/>
+                        <outlet property="DogRight" destination="HgE-EE-KoD" id="aE6-Xi-jmx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DzC-Ir-5Pt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="869.60000000000002" y="113.79310344827587"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Asset 10" width="216" height="346"/>
         <image name="Asset 11" width="214" height="346"/>
         <image name="Asset 12" width="300" height="74"/>
+        <image name="Asset 13" width="473" height="303"/>
+        <image name="Asset 14" width="473" height="303"/>
         <image name="Asset 15" width="751" height="1335"/>
         <image name="Asset 5" width="388" height="367"/>
         <image name="Asset 6" width="320" height="74"/>
         <image name="Asset 7" width="644" height="265"/>
+        <image name="Asset 8" width="505" height="146"/>
         <image name="Asset 9" width="214" height="352"/>
     </resources>
 </document>
