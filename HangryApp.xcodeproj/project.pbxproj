@@ -10,7 +10,8 @@
 		22E15144DD24D80FBD461786 /* Pods_HangryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E746A7020B80D0D013051D10 /* Pods_HangryApp.framework */; };
 		617F2DA22013980900338996 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 617F2DA12013980900338996 /* Podfile */; };
 		617F2DA420139BD100338996 /* NetworkMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F2DA320139BD100338996 /* NetworkMgr.swift */; };
-		92510E8320142955005D4412 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92510E8220142955005D4412 /* ViewController2.swift */; };
+		61D903C2201460AD005492E5 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D903C1201460AC005492E5 /* ViewController2.swift */; };
+		61D903C42014DD01005492E5 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D903C32014DD01005492E5 /* ViewController4.swift */; };
 		92510E8520144CA9005D4412 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92510E8420144CA9005D4412 /* ViewController3.swift */; };
 		92A708A3201303A200327729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A708A2201303A200327729 /* AppDelegate.swift */; };
 		92A708A5201303A200327729 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A708A4201303A200327729 /* ViewController.swift */; };
@@ -40,7 +41,8 @@
 		27800A0E5ECF6EE117208A19 /* Pods-HangryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangryApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HangryApp/Pods-HangryApp.release.xcconfig"; sourceTree = "<group>"; };
 		617F2DA12013980900338996 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		617F2DA320139BD100338996 /* NetworkMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMgr.swift; sourceTree = "<group>"; };
-		92510E8220142955005D4412 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = /Users/trentonropp/Documents/HangryApp/HangryApp/ViewController2.swift; sourceTree = "<absolute>"; };
+		61D903C1201460AC005492E5 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../../Downloads/ViewController2.swift; sourceTree = "<group>"; };
+		61D903C32014DD01005492E5 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		92510E8420144CA9005D4412 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		92A7089F201303A200327729 /* HangryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A708A2201303A200327729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,7 +107,7 @@
 		92A708A1201303A200327729 /* HangryApp */ = {
 			isa = PBXGroup;
 			children = (
-				92510E8220142955005D4412 /* ViewController2.swift */,
+				61D903C1201460AC005492E5 /* ViewController2.swift */,
 				92A708A2201303A200327729 /* AppDelegate.swift */,
 				92A708A4201303A200327729 /* ViewController.swift */,
 				92510E8420144CA9005D4412 /* ViewController3.swift */,
@@ -114,6 +116,7 @@
 				92A708AB201303A200327729 /* LaunchScreen.storyboard */,
 				92A708AE201303A200327729 /* Info.plist */,
 				617F2DA320139BD100338996 /* NetworkMgr.swift */,
+				61D903C32014DD01005492E5 /* ViewController4.swift */,
 			);
 			path = HangryApp;
 			sourceTree = "<group>";
@@ -335,10 +338,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				92510E8520144CA9005D4412 /* ViewController3.swift in Sources */,
+				61D903C42014DD01005492E5 /* ViewController4.swift in Sources */,
 				92A708A5201303A200327729 /* ViewController.swift in Sources */,
-				92510E8320142955005D4412 /* ViewController2.swift in Sources */,
 				92A708A3201303A200327729 /* AppDelegate.swift in Sources */,
 				617F2DA420139BD100338996 /* NetworkMgr.swift in Sources */,
+				61D903C2201460AD005492E5 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

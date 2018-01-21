@@ -25,14 +25,9 @@ class ViewController3: UIViewController {
     
     func findPlacesNearMe() {
         
-        let parameters: Parameters = [
-            "key": "AIzaSyAl0uLA40l0ICxJthsTvB7vGWfpWPFFdIw",
-            "location": "29.6516,82.3248",
-            "radius": "500",
-        ]
-        
         Alamofire.request("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=26,82&rankby=distance&types=food&key=AIzaSyAl0uLA40l0ICxJthsTvB7vGWfpWPFFdIw").responseString { response in
-            debugPrint(response)
+            print("-----GOOGLEAPIRESPONSE-----")
+            print(response)
         }
     }
     

@@ -78,7 +78,7 @@ class ViewController: UIViewController , AVAudioRecorderDelegate, AVAudioPlayerD
         let urls = fileManager.urls(for: .documentDirectory, in: .userDomainMask)
         let documentDirectory = urls[0] as NSURL
         let soundURL = documentDirectory.appendingPathComponent("sound.m4a")
-        print(soundURL)
+        //print(soundURL)
         return soundURL as NSURL?
     }
 
@@ -157,7 +157,7 @@ class ViewController: UIViewController , AVAudioRecorderDelegate, AVAudioPlayerD
     func finishRecording(success: Bool) {
         audioRecorder.stop()
         if success {
-            print(success)
+            print("success")
             
         } else {
             audioRecorder = nil
