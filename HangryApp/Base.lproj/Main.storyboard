@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="SnellRoundhand.ttc">
+            <string>SnellRoundhand-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -126,7 +131,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="812-IV-1QI" kind="show" id="jJt-6U-l3x"/>
+                                    <segue destination="812-IV-1QI" kind="show" id="n88-zm-15F"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -142,20 +147,38 @@
             </objects>
             <point key="canvasLocation" x="869.60000000000002" y="113.79310344827587"/>
         </scene>
-        <!--View Controller3-->
+        <!--View Controller4-->
         <scene sceneID="2eC-IB-3X7">
             <objects>
-                <viewController id="812-IV-1QI" customClass="ViewController3" customModule="HangryApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="812-IV-1QI" customClass="ViewController4" customModule="HangryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eae-Xt-VMs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Asset 15" translatesAutoresizingMaskIntoConstraints="NO" id="EsC-er-0bL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="places to eat" translatesAutoresizingMaskIntoConstraints="NO" id="6GH-pM-LHb">
+                                <rect key="frame" x="0.0" y="95" width="375" height="572"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Laz-03-gpS">
+                                <rect key="frame" x="16" y="2" width="343" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="45"/>
+                                <state key="normal" title="64% Angry">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="MJi-nP-z2q"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m3f-VE-E7S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1734" y="114"/>
+            <point key="canvasLocation" x="1733.5999999999999" y="113.79310344827587"/>
         </scene>
     </scenes>
     <resources>
@@ -170,5 +193,6 @@
         <image name="Asset 7" width="644" height="265"/>
         <image name="Asset 8" width="505" height="146"/>
         <image name="Asset 9" width="214" height="352"/>
+        <image name="places to eat" width="406" height="602"/>
     </resources>
 </document>
