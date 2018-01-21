@@ -10,6 +10,7 @@ import UIKit
 //import Alamofire
 import AVFoundation
 
+
 class ViewController: UIViewController , AVAudioRecorderDelegate, AVAudioPlayerDelegate {
 
     var timer = Timer()

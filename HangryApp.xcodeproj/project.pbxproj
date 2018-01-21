@@ -11,6 +11,7 @@
 		617F2DA22013980900338996 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 617F2DA12013980900338996 /* Podfile */; };
 		617F2DA420139BD100338996 /* NetworkMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F2DA320139BD100338996 /* NetworkMgr.swift */; };
 		92510E8320142955005D4412 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92510E8220142955005D4412 /* ViewController2.swift */; };
+		92510E8520144CA9005D4412 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92510E8420144CA9005D4412 /* ViewController3.swift */; };
 		92A708A3201303A200327729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A708A2201303A200327729 /* AppDelegate.swift */; };
 		92A708A5201303A200327729 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A708A4201303A200327729 /* ViewController.swift */; };
 		92A708A8201303A200327729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A708A6201303A200327729 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		617F2DA12013980900338996 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		617F2DA320139BD100338996 /* NetworkMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMgr.swift; sourceTree = "<group>"; };
 		92510E8220142955005D4412 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = /Users/trentonropp/Documents/HangryApp/HangryApp/ViewController2.swift; sourceTree = "<absolute>"; };
+		92510E8420144CA9005D4412 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		92A7089F201303A200327729 /* HangryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A708A2201303A200327729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92A708A4201303A200327729 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				92510E8220142955005D4412 /* ViewController2.swift */,
 				92A708A2201303A200327729 /* AppDelegate.swift */,
 				92A708A4201303A200327729 /* ViewController.swift */,
+				92510E8420144CA9005D4412 /* ViewController3.swift */,
 				92A708A6201303A200327729 /* Main.storyboard */,
 				92A708A9201303A200327729 /* Assets.xcassets */,
 				92A708AB201303A200327729 /* LaunchScreen.storyboard */,
@@ -290,9 +293,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HangryApp/Pods-HangryApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -324,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92510E8520144CA9005D4412 /* ViewController3.swift in Sources */,
 				92A708A5201303A200327729 /* ViewController.swift in Sources */,
 				92510E8320142955005D4412 /* ViewController2.swift in Sources */,
 				92A708A3201303A200327729 /* AppDelegate.swift in Sources */,
